@@ -1,27 +1,25 @@
-package com.vl.homework7;
-
 public class Pair<K, V> {
-    private K keys;
-    private V values;
+    private K key;
+    private V value;
 
-    public Pair(K keys, V values) {
-        this.keys = keys;
-        this.values = values;
+    public Pair(K key, V value) {
+        this.key = key;
+        this.value = value;
     }
 
-    public K getKeys() {
-        return keys;
+    public K getKey() {
+        return key;
     }
 
-    public V getValues() {
-        return values;
+    public V getValue() {
+        return value;
     }
 
     @Override
     public String toString() {
         return "Pair{" +
-                "keys=" + keys +
-                ", values=" + values +
+                "keys=" + key +
+                ", values=" + value +
                 '}';
     }
 }

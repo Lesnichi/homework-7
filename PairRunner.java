@@ -1,5 +1,3 @@
-package com.vl.homework7;
-
 /**
  * Занятие 18.3. Generics. ДЗ
  * <p>
@@ -26,6 +24,6 @@ public class PairRunner {
     public static void main(String[] args) {
         Pair<String, Integer> pair = new Pair<>("12345", 100);
         System.out.println(pair.toString());
-        System.out.println(PairUtil.swap(pair).toString());
+        System.out.println(PairUtil.swapped(pair).toString());
     }
 }
